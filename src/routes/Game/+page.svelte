@@ -185,6 +185,13 @@
     
   }
 
+  .button-game-back{
+
+    display: flex;
+    margin: 20px;
+    margin-bottom: 500px;
+  }
+
   .btn1 {
     border-radius: 20px;
     margin: 5px;
@@ -196,7 +203,6 @@
     font-family: 'Londrina Solid', sans-serif;
     cursor: pointer;
   }
-
   .correct {
     color: lightgreen;
   }
@@ -245,8 +251,15 @@ botão é só o start -->
 
     <div class="button-game">
       <button class="btn1" on:click={startGame}>START</button>
-      <a href="/"><button class="btn1">BACK</button></a>
     </div>
+  </div>
+
+  <div class="button-game-back">
+    <a href="/" class="btn2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" viewBox="0 0 24 24" data-name="Layer 1"><path
+        d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+        fill="white"/></svg>
+      </a>
   </div>
 </main>
 
