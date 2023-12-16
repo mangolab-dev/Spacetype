@@ -1,4 +1,6 @@
-<script></script>
+<script>
+    import instructionicon from '../../img/instruction.png'
+</script>
 
 <style>
 
@@ -8,8 +10,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    height: auto;
 }
 
 .button 
@@ -33,13 +33,35 @@
     font-family: 'Londrina Solid', sans-serif;
 }
 
+.button-game {
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 20px;
+  }
+
+  .btn2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: -70px;
+  }
+
+  .button-game-back {
+    display: flex;
+  }
   
 </style>
 
+<div class="button-game-back">
+    <a href="/" class="btn2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="60px" viewBox="0 0 24 24" data-name="Layer 1"><path
+        d="M20.3284 11.0001V13.0001L7.50011 13.0001L10.7426 16.2426L9.32842 17.6568L3.67157 12L9.32842 6.34314L10.7426 7.75735L7.49988 11.0001L20.3284 11.0001Z"
+        fill="white"/></svg>
+      </a>
+  </div>
+
 <main>
     <h2>.1</h2>
-    <div class="img-tuto"><img src="https://cdn.discordapp.com/attachments/1169647948615917578/1174555105404653719/tutorial-anti-burro.png?ex=656804af&is=65558faf&hm=24ed12a723b66187d69bfee1b09f3c63ca0223f458bd8213682c361251332f80&" alt=""></div>
-    <div class="button">
-        <a href="/"><button style="cursor: pointer;" class="btn1">BACK</button></a>
-    </div>
+    <div class="img-tuto"><img src={instructionicon} alt=""></div>
 </main>

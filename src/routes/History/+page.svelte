@@ -1,13 +1,16 @@
+<script>
+</script>
+
 <style>
 
 main.container {
-    /* margin: -31px;
-    background-image: url("https://cdn.discordapp.com/attachments/1147527897788186695/1174143146364514385/bg-new.png?"); */
+    margin: -31px;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0px;
     border: 0px;
     height: 1080px;
+    background-image: url("https://cdn.discordapp.com/attachments/1147527897788186695/1174143146364514385/bg-new.png?");
   }
 
   .button {
@@ -20,7 +23,7 @@ main.container {
     padding: 20px;
 }
 
-.btn1 { 
+    .btn1 {
     border-radius: 20px;
     margin: 5px;
     border: 0px;
@@ -31,76 +34,64 @@ main.container {
     font-family: 'Londrina Solid', sans-serif;
 }
 
-p {
-    display: grid;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    padding: 12px;
-
-    border: 1px solid;
-    border-radius: 10px;
-    color: rgb(255, 251, 0);
-    margin: auto;
-    text-align: center;
-    width: 480px;
-    height: 650px;
-    margin-top: 100px;
-    
-}
- 
-strong {
-    color: white;
-    font-family: 'Londrina Solid', sans-serif;
-    font-size: 25px;
-    
-}
-
-/* div.textInstruction{
-    margin-left:747px;
+    .textInstruction{
+    margin-left:698px;
     margin-top: 100px;
     border: 1px solid;
     display: inline-flex;
-    align-items: center;
-    padding: 15px;
+    padding: 50px;
     text-align: center;
     width: 500px;
     height: 600px;
     border-radius: 10px;
     color: rgb(255, 251, 0);
     
-} */
+}
 
+.button-game {
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    margin-left: 9px;
+    margin-top: 20px;
+  }
 
+  .btn2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: -70px;
+  }
 
+  .button-game-back {
+    display: flex;
+  }
 
 </style>
 
-
-
 <main class="container">
     <div class="textInstruction">
-        <p>
-            <strong>Spacetype: Keyboard Star Odyssey</strong>
+        <p> 
+            Spacetype: A Odisseia nas Estrelas do Teclado
 
-            In a future where fast writing was the key to exploring the ends of the universe, the game "Spacetype" was born. Developed by stellar linguistic scientists and programmers, Spacetype was more than just a typing game; it was a cosmic journey through the keyboard.
-
-            The galaxy was in danger from an alien threat that communicated through complex character codes. To combat this threat, humanity created a special force of intergalactic typists, and their training took place within the Spacetype game.
-
-            Players took on the role of commander of the "Digiton" ship, a spaceship equipped with the advanced star keyboard. Each sector of the galaxy presented a challenge, with alien messages being launched towards the ship. The only way to decipher and respond to these messages was to frantically type on the keyboard, using typing skills to translate the codes.
-
-            As players progressed, they encountered peaceful aliens who offered rewards for quick and accurate responses. However, there were also encounters with enemies that attacked with more complex codes and breakneck speeds. The only defense was mastery of the keys.
-
-            Along the way, Digiton commanders could enhance their stellar keyboards with upgrades that increased typing speed, accuracy, and even unlocked special powers such as "TurboType" for lightning-fast typing or "ShieldKey" for temporary protection against enemy attacks.
-
-            The climax took place in a distant sector of the galaxy, where a supremely advanced alien intelligence threatened human existence. The final showdown was an epic typing battle where players had to decipher increasingly intricate codes to disable shields and defeat the alien threat.
-
-            As the Digiton ship returned to Earth after victory, players were celebrated as heroes and typing masters. Spacetype became an intergalactic sensation, not just as an immersive game, but as a vital training tool for those who dared to explore the mysteries of space, one keyboard at a time.
-
+            Num futuro onde a escrita rápida era a chave para desbravar os confins do universo, nasceu o jogo "Spacetype". Desenvolvido por cientistas linguistas e programadores estelares, Spacetype era mais do que um simples jogo de digitação; era uma jornada cósmica através do teclado.
+            
+            A galáxia estava em perigo devido a uma ameaça alienígena que se comunicava por meio de complexos códigos de caracteres. Para combater essa ameaça, a humanidade criou uma força especial de digitadores intergalácticos, e o treinamento deles ocorria dentro do jogo Spacetype.
+            
+            Os jogadores assumiam o papel de comandantes da nave "Digiton", uma espaçonave equipada com o avançado teclado estelar. Cada setor da galáxia representava um desafio, com mensagens alienígenas sendo lançadas em direção à nave. A única maneira de decifrar e responder a essas mensagens era digitando freneticamente no teclado, usando habilidades de digitação para traduzir os códigos.
+            
+            Conforme os jogadores avançavam, encontravam alienígenas pacíficos que ofereciam recompensas por respostas rápidas e precisas. No entanto, também havia encontros com inimigos que atacavam com códigos mais complexos e velocidades alucinantes. A única defesa era a maestria nas teclas.
+            
+            Ao longo da jornada, os comandantes do Digiton podiam aprimorar seus teclados estelares com upgrades que aumentavam a velocidade de digitação, precisão e até mesmo desbloqueavam poderes especiais, como "TurboType" para digitação ultrarrápida ou "ShieldKey" para proteção temporária contra ataques inimigos.
+            
+            O clímax ocorria em um setor distante da galáxia, onde uma inteligência alienígena supremamente avançada ameaçava a existência humana. O confronto final era uma batalha épica de digitação, onde os jogadores precisavam decifrar códigos cada vez mais intrincados para desativar os escudos e derrotar a ameaça alienígena.
+            
+            À medida que a nave Digiton retornava à Terra após a vitória, os jogadores eram celebrados como heróis e mestres da digitação. Spacetype tornou-se uma sensação intergaláctica, não apenas como um jogo envolvente, mas como uma ferramenta de treinamento vital para aqueles que ousavam explorar os mistérios do espaço, um teclado de cada vez.
+            
         </p>
     </div>
+    
+    
+    
     <div class="button">
         <a href="/"><button style="cursor: pointer;" class="btn1">BACK</button></a>
     </div>

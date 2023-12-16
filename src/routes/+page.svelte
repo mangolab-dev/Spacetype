@@ -1,5 +1,4 @@
 <script>
-
 </script>
 
 <style>
@@ -10,9 +9,6 @@
     margin: 0%;
     padding: 0px;
     overflow: hidden;
-    display: grid;  
-    grid-gap: 5px;
-    
   }
 
   .button {
@@ -23,11 +19,13 @@
     align-items: center;
     align-content: stretch;
     padding: 20px;
+    cursor: pointer;
   }
   
   .btn-back{
     margin-top: 50px;
     margin-left: 20px;
+    cursor: pointer;
   
   }
   
@@ -40,6 +38,7 @@
     height: 70px;
     font-size: 40px;
     font-family: 'Londrina Solid', sans-serif;
+    cursor: pointer;
   }
   
   .logo {
@@ -53,7 +52,6 @@
     margin: -31px;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: inherit;
     padding: 0px;
     border: 0px;
     height: 1080px;
@@ -71,7 +69,7 @@
     <div class="button">
         <a href="../Game"><button class="btn1">PLAY</button></a>
         <a href="../Instruction" ><button class="btn1">HOW TO PLAY</button></a>
-        <a href="../History" ><button class="btn1">HISTORY</button></a>
+        <!-- <a href="../History" ><button class="btn1">HISTORY</button></a> -->
         <a href="../About" ><button class="btn1">ABOUT</button></a>
 
 
