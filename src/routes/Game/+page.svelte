@@ -1,5 +1,6 @@
 <script>
   import { sentences } from "../../components/text";
+  import audioSrc from './../../audio/endgame.mp3'
 
   let currentSentence = 0;
   let typedText = "";
@@ -8,12 +9,13 @@
   let timer = 0;
   let gameRunning = false;
   let markedSentence = [];
+  let audio= new Audio(audioSrc);
 
   let difficulty = "Normal";
   const difficultyTimes = {
     Easy: 60,
     Normal: 45,
-    Hard: 30,
+    Hard: 5,
   };
 
   function randomizeSentence() {
@@ -54,6 +56,8 @@
       typedText = "";
       result = `Congratulations, your CPM is: ${charactersPerMinute}`;
       timer = difficultyTimes[difficulty];
+      audio.play();
+      ;
     }
   }
 
