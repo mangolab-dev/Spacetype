@@ -1,6 +1,6 @@
 <script>
   import { sentences } from "../../components/text";
-  import audioSrc from './../../audio/endgame.mp3'
+  import audioSrc from './../../audio/endgame1.mp3'
 
   let currentSentence = 0;
   let typedText = "";
@@ -15,7 +15,7 @@
   const difficultyTimes = {
     Easy: 60,
     Normal: 45,
-    Hard: 5,
+    Hard: 30,
   };
 
   function randomizeSentence() {
