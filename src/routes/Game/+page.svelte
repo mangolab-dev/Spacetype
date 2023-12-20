@@ -4,7 +4,7 @@
 
   let currentSentence = 0;
   let typedText = "";
-  let result = "";
+  let result = null;
   let charactersPerMinute = 0;
   let timer = 0;
   let gameRunning = false;
@@ -155,11 +155,6 @@
     padding: 5px;
   }
 
-  #wpm {
-    color: #fff;
-    margin: 0px;
-  }
-
   #timer {
     color: #fff;
   }
@@ -197,17 +192,7 @@
     margin-bottom: -70px;
   }
 
-  .btn1 {
-    border-radius: 20px;
-    margin: 5px;
-    border: 0px;
-    padding: 0px;
-    width: 270px;
-    height: 70px;
-    font-size: 40px;
-    font-family: 'Londrina Solid', sans-serif;
-    cursor: pointer;
-  }
+
 
   .btn1-start {
     /* background: linear-gradient(60deg, #000000, #049904, #016105, #000000);
@@ -273,7 +258,8 @@
   }
 
   .nextToType {
-    color: rgb(255, 123, 0)
+    color: rgb(255, 123, 0);
+    text-decoration: underline;
   }
 </style>
 
@@ -283,7 +269,6 @@ o campo de entrada vincula o valor digitado a typedText, ela chama o checkInput.
 o result chama o endGame e demonstra o wpm do user
 botão é só o start -->
 
-<main>
   
   <div class="button-game-back">
     <a href="/" class="btn2">
@@ -301,6 +286,10 @@ botão é só o start -->
       </a>
   </div>
 
+
+  {#if !result}
+    
+  
   <div class="game">
     <p class="sentence">       
       {#each markedSentence as { char, correct, notTyped, nextToType }}  
@@ -324,7 +313,6 @@ botão é só o start -->
     </div>
 
     <div class="result-game">
-      <p id="result">{result}</p>
       <p id="charactersPerMinute">CPM: {charactersPerMinute}</p>
       <p id="timer">Time left: {Math.floor(timer / 60)}:{timer % 60}</p>
       <p id="difficulty">[{difficulty}]</p>
@@ -338,6 +326,9 @@ botão é só o start -->
     <button style="background: linear-gradient(60deg, #ef4e7b, #ef4e7b); color:white" class="btn1-op" on:click={() => difficulty = "Hard"} disabled={gameRunning}>Hard</button>
   </div>
 </div>
-
-</main>
+{:else}
+<div>
+<h1>Tempo acabou</h1>
+</div>
+{/if}
 
