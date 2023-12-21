@@ -80,6 +80,7 @@
     #git
     {
         width: 30px;
+        cursor: pointer;
     }
 
   .btn1{
@@ -144,7 +145,12 @@
     <div class="card-content">
         <h2>José Vinícius</h2>
         <p>FRONTEND DEVELOPER</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="https://github.com/Vinnijds">
+            <img id="git" src={giticon} alt="GitHub">
+        </a>
+        </div>
+            
     </div>
 </div>
 
@@ -153,7 +159,10 @@
     <div class="card-content">
         <h2>Luís Eduardo</h2>
         <p>BACKEND DEVELOPER</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="https://github.com/Louiis04">
+            <img id="git" src={giticon} alt="GitHub"></a>
+        </div>
     </div>
 </div>
 
@@ -162,7 +171,10 @@
     <div class="card-content">
         <h2>Victor Gustavo</h2>
         <p>FULLSTACK DEVELOPER</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="https://github.com/victorgustavodev">
+            <img id="git" src={giticon} alt="GitHub"></a>
+        </div>
     </div>
 </div>
 
@@ -171,7 +183,10 @@
     <div class="card-content">
         <h2>Kauê Luí</h2>
         <p>DESIGNER</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="https://github.com/KaueLui">
+            <img id="git" src={giticon} alt="GitHub"></a>
+        </div>
     </div>
 </div>
 
@@ -180,7 +195,10 @@
     <div class="card-content">
         <h2>Maria Leticia</h2>
         <p>COLLABORATOR</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="#">
+            <img id="git" src={giticon} alt="GitHub"></a>
+        </div>
     </div>
 </div>
 
@@ -189,7 +207,10 @@
     <div class="card-content">
         <h2>Isabelly Arruda</h2>
         <p>COLLABORATOR</p>
-        <a href="#" class="social-link"><img id="git" src={giticon} alt=""><img style="margin-left: 10px;" id="git" src={linkedinicon} alt=""></a>
+        <div class="social-link">
+            <a href="#">
+            <img id="git" src={giticon} alt="GitHub"></a>
+        </div>
     </div>
 </div>
 </div>
